@@ -1,0 +1,28 @@
+#skills{
+    margin: 0% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#skills div{
+    width: 70%;
+}
+.skillContainer {
+    border: 1px solid black;
+    margin: 20% 0%;
+    padding: 20px 0px;
+    background-color: #ffadad;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+} 
+.skillContainer div{
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.skillContainer:hover{
+    background-color: white;
+    color: #ffadad; 
+    border: 1px solid #ffadad;
+}

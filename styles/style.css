@@ -1,0 +1,145 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+header{
+    background-color: #cdb4db;
+}
+/* nav{
+    margin: 10px 10px;
+} */
+nav {
+    overflow: hidden;
+    background-color: #cdb4db;
+    height: 80px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    padding: 2% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+header{
+    margin-top: 80px;
+}
+.shortIntro{
+    text-align: center;
+    padding: 30px;
+}
+.shortIntro h1{
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3.5rem;
+}
+.shortIntro p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #480ca8;
+}
+.shortIntro a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+.shortIntro a:hover{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 18px;
+    color: #cdb4db;
+}
+#aboutMe{
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #f7ede2;
+    padding: 2%;
+    border-radius: 14px;
+}
+#aboutMe img{
+    width: 60%;
+    /* border-radius: 50px; */
+}
+#aboutMe h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+#aboutMe p{
+    margin-bottom: 20px;
+}
+#skillHeading{
+    font-size: 2.2rem;
+    text-align: center;
+}
+#achievements { 
+    background-color: #f72585;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 0%;
+}
+#achievements button{
+    font-size: 2rem;
+}
+
+.achieve{
+    display: none;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 2% 1%;
+    background-color: #ffffff;
+    width: 100%;
+}
+@media (max-width: 620px) {
+    .achieve{
+        width: 60%;
+        margin-left: 18%;
+    } 
+    #resume span{
+        display: block;
+        margin-bottom: 2%;
+    } 
+    #skills {
+        display: block;
+    }
+    #skills div{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+}
+.achieve:nth-child(1){
+    display: block;
+}
+.achieve h2{
+    margin: 10% 0%;
+    font-size: 2.4rem;
+}
+.achieve p{
+    margin: 5%;
+    font-size: 1.5rem;
+}
