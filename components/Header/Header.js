@@ -1,7 +1,11 @@
+import LogoHeader from "./LogoHeader";
+import NavigationLink from "./NavigationLink";
+
 function Header() {
   return (
     <>
-      <h1>Header</h1>
+      <LogoHeader />
+      <NavigationLink />
     </>
   );
 }
