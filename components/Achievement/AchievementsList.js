@@ -4,7 +4,11 @@ function AchievementsList() {
   return (
     <>
       {achievements.map((e) => (
-        <Achievement content={e.description} />
+        <Achievement
+          title={e.title}
+          shortDescription={e.shortDescription}
+          description={e.description}
+        />
       ))}
     </>
   );
