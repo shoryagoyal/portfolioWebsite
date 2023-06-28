@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import AchievementsList from "./components/Achievement/AchievementsList";
+import Resume from "./components/Resume/Resume";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Header />
       <h1>Home</h1>
       <AchievementsList />
+      <Resume />
       <Footer />
     </React.Fragment>
   );
