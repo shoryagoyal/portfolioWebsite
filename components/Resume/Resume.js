@@ -19,7 +19,13 @@ function Resume() {
       skills: ["c#", "APIs"],
     },
   ];
-  const skills = [];
+  const skills = [
+    "Java",
+    "Data structures and algorithms",
+    "Object oriented programming",
+    "Node.js",
+    "React.js",
+  ];
   const certification = [
     {
       title: "The Web Developer Bootcamp",
@@ -30,6 +36,16 @@ function Resume() {
       title: " ProblemSolving(Intermediate)",
       issuingAuthority: "HackerRank",
       link: "https://drive.google.com/file/d/1h-lhYs1E2C5UmK86s7ftdCl_vi7ST67O/view?usp=sharing",
+    },
+  ];
+  const eduction = [
+    {
+      instituteName: "Malaviya National Institute of Technology Jaipur",
+      startYear: "2019",
+      endYear: "2023",
+      degreeName: "B.tech",
+      branch: "Electronics and communication engineering",
+      cgpa: "7.41",
     },
   ];
   return (
